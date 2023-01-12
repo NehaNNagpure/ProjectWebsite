@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav-list">
+        <ul class="nav">
+            <li><a href="#home">Home</a></li>
+            <li ><a href="#About">About</a></li>
+            <li ><a href="#Blog">Blog</a></li>
+            <li ><a href="#Contact">Contact</a></li>
+            <input ><button="Button" name=""></button>
+        </ul>
+    </nav>
+
+   <div class="box">
+    <h2>Basic Tecnical writing</h2>
+    <p>This course focuses on undestanding the basic of tecnical writting and developing skills</p>
+   </div>
+
+   <div class="box1">
+    <h2>Confluence Advance</h2>
+    <p>This course focuses on undestanding the basic of tecnical writting and developing skills</p>
+   </div>
+
+   <div class="box2">
+    <h2>Confluence Basic</h2>
+    <p>This course focuses on undestanding the basic of tecnical writting and developing skills</p>
+   </div>
+
+   <div class="box3">
+    <h2>XML Author</h2>
+    <p>This course focuses on undestanding the basic of tecnical writting and developing skills</p>
+   </div>
+
+   <div class="box4">
+    <h2>XML Author</h2>
+    <p>This course focuses on undestanding the basic of tecnical writting and developing skills</p>
+   </div>
+</body>
+
+<script>
+    fetch("class.json")
+    .then(Response=>Response.json())
+    .then(data=>{
+        console.log(data)
+    })
+</script>
+</html>
